@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2
+
+	,"name": "8card data export"
+	,"version": "1.0"
+
+	,"author": "J. Maurice <j@wiz.biz>"
+	,"description": "Add missing export feature to download your contact data from 8card's website"
+
+	,"icons": {
+		"16" : "doge16.png"
+		,"48" : "doge48.png"
+		,"128" : "doge128.png"
+	}
+
+	,"permissions": [ "*://*.8card.net/*" ]
+	,"content_scripts":
+	[
+		{
+			"matches" : [ "*://*.8card.net/people/display_personal_cards" ]
+			,"js" : [ "jquery-1.10.2.js", "export.js" ]
+		}
+	]
+}
