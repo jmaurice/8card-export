@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2
 
-	,"name": "8card data export"
+	,"name": "Eight / 8card エクスポート"
 	,"version": "1.1"
 
 	,"author": "J. Maurice <j@wiz.biz>"
-	,"description": "Add missing export feature to download your contact data from 8card's website"
+	,"description": "名刺管理サービス「Eight」(8card.net) から連絡先情報をエクスポートする"
 
 	,"icons": {
 		"16" : "doge16.png"
