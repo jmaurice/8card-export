@@ -4,7 +4,7 @@ function export_contacts(ra, pa) {
 
 	$.ajax({
 		type: "GET",
-		url: "https://8card.net/people/display_personal_cards.json?0.13670155755244195&_method=get&sort=5&transcribing=0&per_page=100&web=1&use_paginate=1&tags=&index=&keyword=&page=" + page,
+		url: "https://8card.net/people/display_personal_cards.json?sort=5&per_page=100&page=" + page,
 		dataType: "json",
 		success: function(data)
 		{
