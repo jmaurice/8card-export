@@ -71,5 +71,5 @@ function export_contacts(ra, pa) {
 
 var btn = $('<button style="font-size: 2em">EXPORT CONTACTS TO TEXT</button>');
 btn.click(export_contacts);
-$('.btns_l').append(btn);
+$('.container').append(btn);
 

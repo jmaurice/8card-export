@@ -17,7 +17,7 @@
 	,"content_scripts":
 	[
 		{
-			"matches" : [ "*://*.8card.net/people/display_personal_cards" ]
+			"matches" : [ "https://8card.net/myhome/people" ]
 			,"js" : [ "jquery-1.10.2.js", "export.js" ]
 		}
 	]
